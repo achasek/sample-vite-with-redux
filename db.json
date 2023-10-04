@@ -1,0 +1,58 @@
+{
+  "notes": [
+    {
+      "content": "the app state is in redux store",
+      "important": true,
+      "id": 1,
+      "votes": 42
+    },
+    {
+      "content": "state changes are made with actions",
+      "important": true,
+      "id": 2,
+      "votes": 9
+    },
+    {
+      "content": "test note",
+      "important": true,
+      "id": 3,
+      "votes": 4
+    },
+    {
+      "content": "anutha test note",
+      "important": false,
+      "id": 4,
+      "votes": 2
+    },
+    {
+      "content": "anutha nutha note",
+      "important": true,
+      "votes": 1,
+      "id": 5
+    },
+    {
+      "content": "get more socks",
+      "important": false,
+      "votes": 0,
+      "id": 6
+    },
+    {
+      "content": "buy panites",
+      "important": false,
+      "votes": 3,
+      "id": 7
+    },
+    {
+      "content": "lol panites",
+      "important": false,
+      "votes": 6,
+      "id": 8
+    },
+    {
+      "content": "custom hooks",
+      "important": true,
+      "votes": 8,
+      "id": 9
+    }
+  ]
+}
