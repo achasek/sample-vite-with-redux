@@ -1,12 +1,10 @@
-import {
-  Routes, Route, useMatch
-} from 'react-router-dom';
+import { Routes, Route, useMatch } from "react-router-dom";
 // import { useSelector, useDispatch } from 'react-redux';
-import './App.css';
-import Home from './pages/Home';
-import Nav from './components/Nav';
-import NoteHome from './pages/NoteHome';
-import NewNote from './components/NewNote';
+import "./App.css";
+import Home from "./pages/Home";
+import Nav from "./components/Nav";
+import NoteHome from "./pages/NoteHome";
+import NewNote from "./components/NewNote";
 // import Note from './components/Notes';
 
 function App() {
@@ -22,7 +20,7 @@ function App() {
   // }
 
   // const match = useMatch('/notes/:id')
-  // const note = match 
+  // const note = match
   //   ? notes.find(note => note.id === Number(match.params.id))
   //   : null
 
@@ -32,9 +30,9 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/notes" element={<NoteHome />}/>
-        <Route path="/notes/create" element={<NewNote />}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/notes" element={<NoteHome />} />
+        <Route path="/notes/create" element={<NewNote />} />
         {/* <Route path="/notes/:id" element={<Note note={note} handleClick={() => dispatch(toggleImportance(note.id, notes))} handleVote={() => handleVote(note.id, notes)} />}/> */}
       </Routes>
       <Nav />

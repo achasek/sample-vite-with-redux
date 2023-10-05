@@ -1,9 +1,9 @@
-import '../App.css';
+import "../App.css";
 // import { useDispatch } from 'react-redux';
 // import { useNavigate } from 'react-router-dom';
 // import { createNote } from '../reducers/noteReducer/noteReducer';
 // import { setNotification } from '../reducers/notificationReducer/notificationReducer';
-import useNewNote from '../customHooks/useNewNote';
+import useNewNote from "../customHooks/useNewNote";
 
 const NewNote = () => {
   // const navigate = useNavigate()
@@ -19,8 +19,7 @@ const NewNote = () => {
   //       navigate('/notes')
   //       dispatch(setNotification(`you added ${content}`))
   //   }
-  const note = useNewNote()
-  
+  const note = useNewNote();
 
   return (
     // <form onSubmit={addNote}>
@@ -28,7 +27,7 @@ const NewNote = () => {
       <input name="note" />
       <button type="submit">add</button>
     </form>
-  )
-}
+  );
+};
 
-export default NewNote
+export default NewNote;
